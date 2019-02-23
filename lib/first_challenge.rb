@@ -26,4 +26,4 @@ def first_challenge
   contact
 end
 
-puts first_challenge
+ first_challenge
