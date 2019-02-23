@@ -11,7 +11,5 @@ def second_challenge
     value.each do |ele|
       puts ele
     end
-  
   end
-
 end
