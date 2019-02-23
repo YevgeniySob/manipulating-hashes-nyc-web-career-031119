@@ -17,8 +17,8 @@ def first_challenge
   contact = contacts.collect do |key, data|
     data.each do |attribute, value|
       if attribute == :favorite_icecream_flavors
-        #value.delete("strawberry")
-        puts "#{value}"
+        value.delete("strawberry")
+        #puts "#{value}"
       end
     end
   end
@@ -26,4 +26,4 @@ def first_challenge
   contact
 end
 
- first_challenge
+puts first_challenge
