@@ -14,14 +14,13 @@ def first_challenge
   }
 
   #your code here
-  contact = contacts.collect do |key, data|
+  contacts.each do |key, data|
     data.each do |attribute, value|
       if attribute == :favorite_icecream_flavors
         value.delete("strawberry")
-        #puts "#{value}"
       end
     end
   end
 
-  contact
+  contacts
 end
